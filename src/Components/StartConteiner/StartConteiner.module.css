@@ -1,0 +1,141 @@
+.content{
+    height: 600px;
+    background: linear-gradient(to right, var(--e-global-color-light-blue-screen) 35%, var(--e-global-color-light-blue) 35%);
+}
+.flex_div{
+    display: flex;
+    height: 100%;
+}
+
+
+
+
+/* Litle div */
+.TextDiv{
+    width: 27%;
+    height: 100%;
+    position: relative;
+}
+
+.posLitleDiv{
+    position: absolute;
+    top: 25%;
+}
+
+.textUp{
+    font-family: "Roboto", Sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    color: var(--e-global-color-primary);
+    margin-bottom: 20px;
+}
+
+.textDown{
+    font-family: "Comfortaa", Sans-serif;
+    font-size: 16px;
+    color: var(--e-global-color-text);
+    margin-bottom: 20px;
+}
+
+
+
+.button{
+    color: white;
+    width: 205px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: var(--e-global-color-black);
+    padding-left: 20px;
+    
+    display: flex;
+    align-items: center;      /* вертикальное выравнивание */
+    justify-content: center;  /* горизонтальное выравнивание */
+    gap: 15px;    /* отступ между текстом и иконкой */
+}
+
+
+
+/* Big div */
+.PhotoDiv{
+    width: 73%;
+    height: 100%;
+    position: relative;
+}
+
+.imgEat{
+    position: absolute;
+    left: 10%;
+    top: 50%;             /* отталкиваем от верхнего края на 50% высоты */
+    transform: translateY(-50%);  /* сдвигаем вверх на половину своей высоты для центрирования */
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+/* MEDIA */
+@media (max-width: 770px) {
+    .content{
+        height: auto;
+        /* padding-bottom: 20px; */
+        background: none;
+        background-color: aqua;
+    }
+    .flex_div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .TextDiv{
+        width: auto;
+        height: auto;
+        position: static;
+        margin-bottom: 40px;
+    }
+    .posLitleDiv{
+        position: static;
+        top: none;
+    }  
+
+    .textUp{
+        font-size: 42px;
+        margin-bottom: 0;
+    } 
+    .textDown{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+
+
+
+    .PhotoDiv{
+        width: auto;
+        height: auto;
+        position: static;
+    }
+    .imgEat{
+        position: static;
+        left: auto;
+        top: auto;
+        transform: translateY(0);
+        max-height: 100%;
+        max-width: 100%;
+
+        /* background-color: antiquewhite; */
+    }
+
+    .button{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+

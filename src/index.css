@@ -1,0 +1,41 @@
+:root{
+  --e-global-color-black: #000000;
+  --e-global-color-text: #2B2B2B;
+
+  --e-global-color-dark-blue: #1F6EB4;
+  --e-global-color-light-blue: #61ACE7;
+
+  --e-global-color-light-blue-screen: #CBE1F2;
+
+
+  --e-global-color-e7a04f7: #E9531E;
+  --e-global-color-fa47e40: #FFFFFF;
+  --e-global-color-3f3cbed: #000000;
+  --e-global-color-d909423: #00000000;
+  --e-global-color-6690b06: #F6F6F6;
+  --e-global-color-4e054ed: #2B2B2B;
+  --e-global-color-ecf33d4: #E9E8E8;
+  --e-global-color-6b98383: #9E9D9D;
+  --e-global-color-2521814: #5F5F5F;
+  --e-global-typography-primary-font-family: "Comfortaa";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Comfortaa";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Comfortaa";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Comfortaa";
+  --e-global-typography-accent-font-weight: 500;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner{
+  max-width: 1230px;
+  padding: 0 15px;
+  margin-inline: auto;
+
+}
+

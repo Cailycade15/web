@@ -10,11 +10,11 @@ function DoubleNav() {
   return (
     <div className={cl.position}>
         <div className={`conteiner ${cl.flex_div}`}>
-            <CardForNav img="/images/shield-icon.png" text="Защита от паразитов"/>
-            <CardForNav img="/images/cat-icon.png" text="Кошки"/>
-            <CardForNav img="/images/dog-icon.png" text="Собаки"/>
-            <CardForNav img="/images/pills-icon.png" text="Ветаптека"/>
-            <CardForNav img="/images/discount-icon-lapa.png" text="Акции"/>
+            <CardForNav img="/images/icons/icons_mainPage/shield-icon.png" text="Защита от паразитов"/>
+            <CardForNav img="/images/icons/icons_mainPage/cat-icon.png" text="Кошки"/>
+            <CardForNav img="/images/icons/icons_mainPage/dog-icon.png" text="Собаки"/>
+            <CardForNav img="/images/icons/icons_mainPage/pills-icon.png" text="Ветаптека"/>
+            <CardForNav img="/images/icons/icons_mainPage/discount-icon-lapa.png" text="Акции"/>
         </div>
     </div>
   );

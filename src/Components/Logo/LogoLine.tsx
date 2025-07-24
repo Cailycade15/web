@@ -9,7 +9,7 @@ function LogoLine() {
     <div className={cl.divLogo}>
         <div className="conteiner">
             <img className={cl.img_logo}
-            src={process.env.PUBLIC_URL + "/images/lapa-logo-ru.png"}  
+            src={process.env.PUBLIC_URL + "/images/icons/icons_mainPage/lapa-logo-ru.png"}  
             alt="Logo" />
         </div>
     </div>

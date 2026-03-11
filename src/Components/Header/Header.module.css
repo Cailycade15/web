@@ -106,7 +106,89 @@
     height: 30px; 
 
     display: inline-block;
-    margin-right: 30px;
+    margin-inline: 10px;
+}
+
+.icon_panel:hover{
+    cursor: pointer;
+}
+
+.heart_icon{
+    fill: transparent;
+    transition: fill 0.8s ease;
+}
+
+.basket_icon{
+    fill: transparent;
+    transition: fill 0.8s ease;
+}
+
+
+/* profil */
+.profil_icon{
+    position: relative;
+}
+
+.profil_icon:hover .hidenPanel{
+    display: block;
+}
+
+.hidenPanel{
+    width: auto;
+    background-color: #216FB5;
+    /* margin-top: 10px; */
+
+    display: none;
+    position: absolute;
+
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.list_item{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    transition: fill 0.3s ease;
+
+    padding: 8px;
+}
+
+.list_item:hover{
+    background-color: white;
+}
+
+/* .a.text:active, 
+.a.text:hover,
+.a.text{
+    text-decoration: none;
+} */
+
+.profilText{
+    padding-inline: 10px;
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+    /* font-weight: 400; */
+    white-space: nowrap;
+}
+
+.profilText:hover{
+    cursor: default;
+}
+
+
+
+
+.icon_panel:hover .heart_icon{
+    fill:red;
+}
+
+.icon_panel:hover .basket_icon{
+    fill:var(--e-global-color-light-blue-screen);
 }
 
 
@@ -129,6 +211,16 @@
     border-radius: 50%;
     background-color: var(--e-global-color-dark-blue);
 }
+
+.button{
+    width: 5vw;
+    background-color: var(--e-global-color-light-blue-screen);
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+}
+
+
 
 
 /* BURGER  */
@@ -191,12 +283,30 @@ div span{
         margin-right: 15px;
     }
 }
+@media(max-width: 1024px){
+    .search__input{
+        width: 47vw;
+    }
+    .profilText{
+        font-size: 15px;
+    }
+}
 @media (max-width: 960px){
     .search__input{
         width: 45vw;
     }
     .icon_panel{
         margin-right: 10px;
+    }
+}
+@media(max-width: 900px){
+    .search__input{
+        width: 38vw;
+    }
+}
+@media(max-width: 800px){
+    .search__input{
+        width: 35vw;
     }
 }
 @media (max-width: 770px){

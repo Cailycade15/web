@@ -1,0 +1,36 @@
+.App{
+    
+}
+
+
+.advertising{
+    flex-shrink: 0; /* Элемент не сжимается, даже если места не хватает */
+    width: 230px;
+    height: 270px; 
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.advertising:hover{
+    cursor: pointer;
+}
+
+.img_advertising{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+.brend{
+    width: 230px;
+    height: 270px; 
+    background-color: antiquewhite;
+}
+
+.img_brend{
+    width: 250px;
+    height: 125px;
+}

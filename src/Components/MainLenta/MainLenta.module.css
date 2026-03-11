@@ -1,0 +1,63 @@
+.MainLenta{
+
+}
+
+.Lenta{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.top_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_img{
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+
+.arrow{
+    fill: currentColor;
+    width: 15px;
+    height: 15px;
+}
+
+.top_left_div{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    height: 60px;
+}
+
+.top_right_div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: black;
+}
+
+.left_text_style{
+    color: black;
+    font: 22px "Open Sans", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right_text_style{
+    color: currentColor;
+    font: 16px Montserrat, sans-serif;
+}
+
+.left_text_style:hover, .top_right_div:hover{
+    color: #1C6EB4;
+    cursor: pointer;
+}
+
+
+
+.down_div{
+}

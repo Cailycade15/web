@@ -13,8 +13,8 @@ const CardFooter = ({title, list}: PropsCardFooter) => {
     <div className={cl.card}>
         <p className={cl.title}>{title}</p>
         {
-            list.map((item) => 
-                <a 
+            list.map((item,index) => 
+                <a key={index}
                     href={item}
                     className={cl.list_item}>{item}</a>
             )
